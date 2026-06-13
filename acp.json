@@ -1,0 +1,21 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "loopfactory",
+    "description": "No-code automation (Zapier competitor, FLIP CANDIDATE).",
+    "version": "0.1.0",
+    "provider": "CSOAI-ORG",
+    "interfaces": [
+      {
+        "type": "a2a",
+        "url": "https://loopfactory.ai"
+      }
+    ],
+    "capabilities": [
+      "cron-ai-mcp",
+      "webhook-ai-mcp",
+      "a2a-mesh",
+      "memoria-commit"
+    ]
+  }
+}
