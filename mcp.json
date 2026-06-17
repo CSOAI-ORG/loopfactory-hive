@@ -1,0 +1,14 @@
+{
+  "name": "loopfactory.ai",
+  "title": "Loop Factory — Circular Manufacturing",
+  "description": "Closed-loop manufacturing orchestration, waste-to-resource conversion, and circular economy automation.",
+  "cluster": "INDUSTRY",
+  "servers": [
+        { "id": "loop-mcp.sov3.meok.ai", "url": "https://loop-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "circular-mcp.sov3.meok.ai", "url": "https://circular-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" },
+    { "id": "waste-mcp.sov3.meok.ai", "url": "https://waste-mcp.sov3.meok.ai/", "protocol": "mcp-1.0" }
+  ],
+  "registrar": "https://mcp-registry.sov3.meok.ai/register",
+  "protocol": "https://openMCP.ai/protocol",
+  "$schema": "https://openMCP.ai/schemas/mcp-server-list.json"
+}
